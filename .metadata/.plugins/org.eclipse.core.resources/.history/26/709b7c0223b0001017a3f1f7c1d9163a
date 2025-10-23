@@ -1,0 +1,40 @@
+/*Descrición: pide 10 num, almacena en el array y muestra la suma 
+ * 
+ */
+
+package ejercicio2;
+
+import java.util.Scanner;
+
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		final int numeros = 10;
+		int numInsertado;
+		int [] almacen;
+		almacen = new int [numeros];
+		
+		for ( int posicion=0; posicion<10; posicion++){
+			System.out.println("Inserte un número: ");
+			numInsertado = teclado.nextInt();
+			almacen[posicion] = numInsertado;	
+		}
+		
+		
+		
+		for ( int posicion=0; posicion<10; posicion++) {
+			System.out.println("El valor de la posición " + posicion + " es: " + almacen[posicion]);
+				
+				
+			
+			}
+	}
+	
+
+
+	}
+
+

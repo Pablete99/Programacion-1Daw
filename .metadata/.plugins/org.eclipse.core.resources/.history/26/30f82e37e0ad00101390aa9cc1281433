@@ -1,0 +1,17 @@
+package ejercicio1;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Los primeros 20 números naturales son: ");
+		
+		for ( int contador = 0; contador < 21; contador++) {
+			
+			contador++;
+			System.out.println(contador);
+		}
+	}
+
+}

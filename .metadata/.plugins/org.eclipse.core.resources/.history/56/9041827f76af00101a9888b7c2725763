@@ -1,0 +1,45 @@
+/*Descripción: temperatura
+ *Autor: Pablo González González
+ *Fecha: 22/10/2025
+ */
+package arrayBidimensional;
+
+public class ArrayBidimensional {
+
+	public static void main(String[] args) {
+		int [] [] temperatura ; // Declaración de un array bidimensional
+		temperatura = new int[12] [30];
+		int diaMasCaluroso = 0;
+		int TemCalurosa;
+		
+		for ( int mes = 0; mes < 12; mes++) {         // Inicialización a valores aleatores entre 0 y 40
+			for ( int dia = 0; dia < 30; dia++ ) {
+			 temperatura [ mes][dia] = (int)(Math.random()*40);
+				
+			}
+		}
+		for ( int mes = 0; mes < 12; mes++) {         // Mostramos las temperaturas
+			for ( int dia = 0; dia < 30; dia++ ) {
+			System.out.print ( temperatura [ mes][dia] + " \t" );
+			}
+			System.out.println();
+		}
+		
+	// Para cada mes, calcular que dia fue el mas caluroso y que temperatura fue
+	for ( int mes = 0; mes < 12; mes++) {
+		TemCalurosa = tempreatura [mes][0]; // cada mes incializo la temperatura más alta 
+		for ( int dia = 0; dia < 30; dia++ ) {
+		if ( diaMasCaluroso < temperatura [mes][dia] ) {
+			TemCalurosa = temperatura [mes][dia];
+			diaMasCaluroso = dia;
+			}
+		
+		
+		
+		} System.out.println(" El día " + diaMasCaluroso + " hubo " + TemCalurosa);   
+	
+}
+
+	}
+	
+}

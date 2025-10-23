@@ -1,0 +1,28 @@
+/*
+ * 
+ */
+
+package arrays;
+
+import java.util.Scanner;
+
+public class PrimerEjArrays {
+
+	public static void main(String[] args) {
+		final int TAMAYIO = 25;
+		
+		int [] numeros; //DEclaramos array de enteros 
+		numeros = new int [TAMAYIO]; //Instanciamos el array
+		
+		
+		for ( int posicion= 0; posicion < TAMAYIO; posicion++) {
+			numeros[posicion] = (int)(Math.random()*50); //Inicializamos a UN NUMERO RANDOM todas las posiciones
+		}
+		
+		for (int posicion = 0; posicion < TAMAYIO; posicion++) {
+			System.out.println("El valor de la posición " + posicion + " es: " + numeros[posicion]);
+		}
+ 
+	}
+
+}

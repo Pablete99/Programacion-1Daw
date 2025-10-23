@@ -1,0 +1,45 @@
+/*Descripción : Aplicación de senderismo
+Autor: Pablo González González
+Fecha: 16/10/2025
+ */
+package ejercicio8;
+
+import java.util.Scanner;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		 
+		String nombre, apellidos;
+		
+		System.out.println("Inserte su nombre: ");
+		nombre = teclado.next();
+		
+		System.out.println("Inserte sus apellidos: ");
+		apellidos= teclado.next();
+		teclado.nextLine();
+
+		
+		int edad;
+		System.out.println("Inserte su edad: ");
+		edad = teclado.nextInt();
+		
+		if ( edad <= 17 || edad >= 47 ) {
+			System.out.println("Esa edad no es correcta");
+		}
+		else {
+			int numeroRutas;
+			System.out.println("Inserte el número de rutas realizadas: ");
+			numeroRutas = teclado.nextInt();
+			
+			double distanciaUltimaRuta;
+			System.out.println("Inserte la distancia que recorrio en su última ruta: ");
+			distanciaUltimaRuta = teclado.nextInt();
+		}
+			
+
+
+	}
+
+}

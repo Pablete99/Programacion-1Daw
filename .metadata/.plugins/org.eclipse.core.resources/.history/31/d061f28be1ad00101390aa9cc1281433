@@ -1,0 +1,22 @@
+package ejercicio2;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		
+        System.out.println("Los números pares entre 1 y 200 son: ");
+		
+		for ( int contador = 0; contador < 201; contador++) {
+			
+			System.out.print(" " + contador );
+			
+
+		}
+	}
+
+
+
+
+
+	}
+

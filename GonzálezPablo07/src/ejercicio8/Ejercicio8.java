@@ -1,0 +1,80 @@
+/*Descripción : Aplicación de senderismo
+Autor: Pablo González González
+Fecha: 16/10/2025
+ */
+package ejercicio8;
+
+import java.util.Scanner;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		 
+		String nombre, apellidos;
+		double distancia, sumadistancia, distanciaLarga;
+		String ciudad, ciudadLarga = "";
+		int numeroParticipantes;
+		int numeroRutas =0;
+		
+		System.out.println("Inserte su nombre: ");
+		nombre = teclado.next();
+		
+		System.out.println("Inserte sus apellidos: ");
+		apellidos= teclado.next();
+		teclado.nextLine();
+
+		
+		int edad;
+		System.out.println("Inserte su edad: ");
+		edad = teclado.nextInt();
+		
+		if ( edad <= 17 || edad >= 47 ) {
+			System.out.println("Esa edad no es correcta");
+		}
+		else {
+			
+			System.out.println("Inserte el número de rutas realizadas: ");
+			numeroRutas = teclado.nextInt();
+			
+			double distanciaUltimaRuta;
+			System.out.println("Inserte la distancia que recorrio en su última ruta: ");
+			distanciaUltimaRuta = teclado.nextDouble();
+		}
+		
+		distanciaLarga = 0;
+		sumadistancia = 0;
+		for ( int contador = 0; contador < 5; contador++) {
+			System.out.println("Inserte la distancia: ");
+			distancia = teclado.nextDouble();
+			teclado.nextLine(); 
+			System.out.println("Inserte la ciudad: ");
+			ciudad = teclado.nextLine();
+			System.out.println("Inserte los participantes");
+			numeroParticipantes = teclado.nextInt();
+			teclado.nextLine(); 
+			
+			sumadistancia = sumadistancia + distancia;
+			
+			if (distancia > distanciaLarga) {
+				distanciaLarga = distancia;
+				ciudadLarga = ciudad;
+			}
+		
+		}
+        
+		sumadistancia = sumadistancia / 5;
+		
+		System.out.println("-------------------------------------------------------------------");
+		System.out.println("Nombre: " + nombre   );
+		System.out.println("Apellidos: "  + apellidos      ) ;
+		System.out.println("Número de rutas realizadas: " +  numeroRutas );
+		System.out.println("Distancia media (5 últimas rutas): " + sumadistancia);
+		System.out.println("Distancia más larga de las últimas 5 rutas: " +  distanciaLarga );
+		System.out.println("Ciudad de la ruta más larga: "  + ciudadLarga );
+		System.out.println("-------------------------------------------------------------------");
+		
+
+	}
+}
+

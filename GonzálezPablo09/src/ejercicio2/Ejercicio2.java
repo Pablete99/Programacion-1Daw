@@ -1,0 +1,45 @@
+/*Descrición: pide 10 num, almacena en el array y muestra la suma 
+ * Autor: Pablo González González
+ * Fecha:23/10/2025
+ */
+
+package ejercicio2;
+
+import java.util.Scanner;
+
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		final int numeros = 10;
+		int numInsertado;
+		int [] almacen;
+		int sumaTotal=0;
+		almacen = new int [numeros];
+		
+		for ( int posicion=0; posicion<10; posicion++){
+			System.out.println("Inserte un número: ");
+			numInsertado = teclado.nextInt();
+			almacen[posicion] = numInsertado;	
+		}
+		
+		
+		
+		for ( int posicion=0; posicion<10; posicion++) {
+			sumaTotal = almacen[posicion] + sumaTotal;
+			
+
+			
+				
+			
+			}
+	System.out.println("La suma total de todos los números insertados en el array es: " + sumaTotal);
+	}   
+	
+
+
+	}
+
+
