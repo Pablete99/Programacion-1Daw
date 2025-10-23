@@ -34,11 +34,7 @@ Este repositorio está destinado a **mis proyectos y ejercicios de Java** durant
 
 ---
 
-## 💻 Cómo usar
 
-1. Clona este repositorio en tu máquina:
 
-```bash
-git clone https://github.com/TuUsuario/NombreRepo.git
 
 
