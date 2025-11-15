@@ -26,31 +26,7 @@ Este repositorio contiene todos mis ejercicios y prácticas de programación ini
 - Problemas resueltos paso a paso
 - Mini-IA: pequeños algoritmos de lógica o cálculo
 
----
 
-## 📂 Estructura del repositorio
-Programacion-1Daw/
-│
-├─ .git/                   # Carpeta de configuración de Git
-├─ .gitignore              # Archivos y carpetas que Git debe ignorar
-├─ README.md               # Descripción del repositorio
-│
-├─ src/                    # Código fuente de los ejercicios
-│   ├─ ejercicio1/         # Ejercicio 1
-│   │   ├─ Ejercicio1.java
-│   │   └─ (otros archivos relacionados)
-│   ├─ ejercicio2/
-│   ├─ ejercicio3/
-│   └─ ...                 # Otros ejercicios
-│
-├─ bin/                    # Archivos compilados (.class)
-│   ├─ ejercicio1/
-│   └─ ...
-│
-├─ .settings/              # Configuración de Eclipse (si se usa)
-│   └─ org.eclipse.core.resources.prefs
-│
-└─ README.md               # Documentación principal
 
 
 
