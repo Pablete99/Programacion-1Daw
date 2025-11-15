@@ -1,47 +1,36 @@
-# 🚀 Mis Proyectos Java - 1º DAW
+# 🖥️ Programación - Inicio Java & AI
 
-Este repositorio está destinado a **mis proyectos y ejercicios de Java** durante 1º de DAW. Aquí registro mis **comienzos, avances y prácticas de programación**, desde lo más básico hasta los primeros retos con arrays y estructuras de control.
-
----
-
-## 📚 Contenido
-
-- **Tipos de datos básicos**
-  - Números enteros (`int`)
-  - Números decimales (`double`, `float`)
-  - Caracteres (`char`)
-- **Estructuras de control**
-  - Bucles: `for`, `while`, `do...while`
-  - Condicionales: `if`, `switch`
-- **Operaciones matemáticas básicas**
-  - Suma, resta, multiplicación, división, módulo
-- **Primeros pasos con arrays**
-  - Declaración, inicialización y recorrido de arrays
-
-- **Documentación JavaDocs**
-  - Cada proyecto incluye documentación generada automáticamente con Javadoc
-  - Abre `index.html` para navegar por las clases y métodos
+Este repositorio contiene todos mis ejercicios y prácticas de programación inicial, centrados en Java y conceptos básicos de Inteligencia Artificial.
 
 ---
 
-## 🎯 Objetivo
+## 🧩 Contenido del repositorio
 
-- Aprender y practicar **programación en Java desde cero**
-- Familiarizarme con:
-  - Tipos de datos básicos (enteros, decimales, caracteres)
-  - Sintaxis y operaciones
-  - Estructuras de control y bucles
-  - Primeros arrays
-- Documentar mi aprendizaje y avances paso a paso
+### 1️⃣ Variables y Tipos de Datos
+- Variables primitivas y objetos
+- Conversión de tipos
+- Identidades y constantes
+
+### 2️⃣ Arrays
+- Arrays unidimensionales
+- Arrays multidimensionales
+- Manipulación básica y bucles
+
+### 3️⃣ Funciones / Métodos
+- Declaración y uso de métodos
+- Parámetros y retorno de valores
+- Funciones recursivas básicas
+
+### 4️⃣ Mini-proyectos
+- Ejercicios aplicando arrays y funciones
+- Problemas resueltos paso a paso
+- Mini-IA: pequeños algoritmos de lógica o cálculo
 
 ---
 
-## 💻 Cómo usar
+## 📂 Estructura del repositorio
 
-1. Clona este repositorio en tu máquina:
 
-```bash
-git clone https://github.com/TuUsuario/NombreRepo.git
 
 
 
