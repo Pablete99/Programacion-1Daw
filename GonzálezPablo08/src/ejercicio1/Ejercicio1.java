@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*  Descripción:Escribe un programa Java que dada una cantidad de euros que el usuario introduce por teclado (múltiplo de 5 €)
  * mostrará los billetes de cada tipo que serán necesarios para alcanzar dicha cantidad (utilizando billetes de 500, 200, 100, 50, 20, 10 y 5), usando el mínimo número posible.
  * Autor: Pablo González González
@@ -72,3 +73,24 @@ public class Ejercicio1 {
     }
     
  }
+=======
+package ejercicio1;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Los primeros 20 números naturales son: ");
+		
+		for ( int contador = 0; contador < 201; contador++) {
+			
+		if ( contador % 2 == 0) {	
+			System.out.print(" " + contador );
+		
+	}
+
+		}
+	}
+}
+>>>>>>> 568c5f9fc17509900e73ac41947b53c8ce1285d6
