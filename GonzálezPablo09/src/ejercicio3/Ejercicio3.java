@@ -1,0 +1,42 @@
+/*Descrición: pide 10 num, almacena en el array y muestra el mayo y menor 
+ * Autor: Pablo González González
+ * Fecha:23/10/2025
+ */
+package ejercicio3;
+
+import java.util.Scanner;
+
+
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		final int numeros = 10;
+		int numInsertado;
+		int [] almacen;
+		int numMenor = 0;
+		int numMayor = 0;
+		almacen = new int [numeros];
+		
+		for ( int posicion=0; posicion<10; posicion++){
+			System.out.println("Inserte un número: ");
+			numInsertado = teclado.nextInt();
+			almacen[posicion] = numInsertado;	
+
+		}
+		for ( int posicion = 0; posicion<10; posicion++) {
+			
+			if ( numMenor > almacen[posicion]) {
+				numMenor = almacen[posicion];
+			}
+			if ( numMayor < almacen[posicion]) {
+				numMayor = almacen[posicion];
+			}
+		}
+
+		System.out.println("El número mayor del array es: " + numMayor + " y el número menor es: " + numMenor);
+		
+}
+}
